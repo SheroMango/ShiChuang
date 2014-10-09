@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表格练习</title>
+</head>
+<body background="Pic\二次元.jpeg">
+	<table border="1">
+		<tr>
+			<td>手机</td>
+			<td>笔记本</td>
+			<td>电脑硬件</td>
+		</tr>
+		<tr>
+			<td>数码相机</td>
+			<td>MP3</td>
+			<td>闪存</td>
+		</tr>
+	</table><br/>
+
+	<table>
+		<tr align="center">
+			<td bgcolor="##D9FFFF">
+				合并前：
+				<table border="1">
+					<tr>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>5</td>
+						<td>6</td>
+					</tr>
+				</table>
+			</td>
+			<td bgcolor="#FFFFCE">
+				左右合并后：
+				<table border="1">
+					<tr align="center">
+						<td colspan="3">1</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>5</td>
+						<td>6</td>
+					</tr>
+				</table>
+			</td>
+			<td bgcolor="#FFC1E0">
+				上下合并后：
+				<table border="1">
+					<tr>
+						<td rowspan="3">1</td>
+						<td>2</td>
+						<td>3</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>6</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
